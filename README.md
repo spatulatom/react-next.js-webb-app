@@ -4,8 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 to run the Next app server:
 npm run dev
 or
-yarn dev
-This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/
+yarn dev.
+This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/.
 
 
 
@@ -51,4 +51,4 @@ for dyanmic routing in Next we need to use [] when naming the file: [id].js
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
- 
+This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/
