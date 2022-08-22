@@ -22,7 +22,13 @@ nav {
   border-bottom: 1px solid #ddd;
 }
 nav a {
-  margin-left: 12px;
+  margin-left: 2rem;
+}
+nav a:hover {
+  color: rgb(132, 131, 65);
+  font-weight: 600;
+  transform: scale(1.1);
+  
 }
 nav .logo {
   margin-right: auto;
@@ -52,8 +58,31 @@ footer{
   transform:rotate(270deg);
 }
 
+.details{
+  text-align: center;
+}
+
+.details__photo{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  }
+.details__photo--mobile{
+  display:none;
+}
+
+
 @media(max-width: 1200px){
   footer{
     display: none;
+  }
+  .details__photo{
+  display: none
+  }
+  .details__photo--mobile{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    
+    
   }
 }
