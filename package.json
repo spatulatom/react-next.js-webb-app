@@ -1,6 +1,5 @@
 {
   "name": "hotels",
-  "homepage": "https://spatulatom.github.io/react-next.js-webb-app/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,9 +10,7 @@
   "dependencies": {
     "next": "10.0.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
