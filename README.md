@@ -3,15 +3,19 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 to run the Next app server:
 npm run dev
-# or
+or
 yarn dev
-This app is deployed here:
+This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/
+
+
 
 ## About
 Next.js is an open-source web development framework built on top of Node.js enabling React-based web applications functionalities such 
 as server-side rendering and generating static websites as oppose to 'traditional' React apps that can only render their content in the client-side browser.
-This little project explores many Next.js features like how to make pages and routes, how to link between them, how to use styles, how to create a Layout 
-component used across all app like Navbar or Footer, how to use static assests, how to insert different metadata to each page.
+
+This little project is a demo tourist website. It explores many Next.js features like how to make pages and routes, how to link between them, how to use styles, how to create a Layout 
+component used across all app like Navbar or Footer, how to use static assests like images, how to insert different metadata to each page, how to fetch data on the server side (from JSONPlaceholder APIs) with Next.js build in functions: getStaticProps() and getStaticPaths() and finally how to deploy the app on
+the Vercel Platform.
 
 ## Images usage
  For any static assets like images in Next.js they have to placed in 'public' folder. 
