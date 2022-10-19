@@ -30,7 +30,7 @@
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
      <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#next-general-info">Next General Info</a></li>
+    <li><a href="#next.js-general-info">Next General Info</a></li>
     <li><a href="#images-usage">Images</a></li>
     <li><a href="#customizing-page-title-for-each-page">Customizing Page Title For Each Page</a></li>
     <li><a href="#fetching-data">Fetching Data</a></li>
@@ -44,11 +44,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This little project is a demo tourist website where user can choose a hotel from the list of hotels.
+This little project is a demo tourist website where user can choose a hotel from the list of hotels:
 
 ![Product Name Screen Shot](imgs/cd1.png)
 
-List of dummy hotels is fetched from JSONPlaceholder APIs.
+List of dummy hotels is fetched from JSONPlaceholder APIs:
 
 ![Product Name Screen Shot](imgs/cd2.png)
 
@@ -94,7 +94,7 @@ This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Next general info
+## Next.js general info
 Next.js is an open-source web development framework built on top of Node.js enabling React-based web applications functionalities such 
 as server-side rendering and generating static websites as oppose to 'traditional' React apps that can only render their content in the client-side browser.
 
@@ -102,7 +102,7 @@ as server-side rendering and generating static websites as oppose to 'traditiona
 
 ## Images usage
  For any static assets like images in Next.js they have to placed in 'public' folder. 
- Then we could use <img src="public/kkkk"> or import Image from 'next/image'
+ Then we could use img src="public/kkkk" or import Image from 'next/image'
  and use that component that allows us direct styling - another
  good thing about using this Image component is that it loads images lazely, so for example if the image was somewhere at the bottom of the page it only loads it if we sroll down to the bottom; 
     see index.js for its aplication
