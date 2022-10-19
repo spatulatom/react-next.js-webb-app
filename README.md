@@ -44,33 +44,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-1. This app is a social media platform where users can:
-* log in/create an account,
-* upload photos/create posts (about upcoming social events),
-* add likes,
-* add comments,
-* tag their event's location on the Google map ,
-* change their passwords.
+This little project is a demo tourist website where user can choose a hotel from the list of hotels.
 
 ![Product Name Screen Shot](imgs/cd1.png)
 
-
-2. There are currently a few dummy users accounts created and all of them users have already posted some events as seen below:
+List of dummy hotels is fetched from JSONPlaceholder APIs.
 
 ![Product Name Screen Shot](imgs/cd2.png)
 
-
-
-3. Below we have an example of an event created by User1
-* titled 'Lorem Ipsum'
-* with the date and time of the creation
-* it received 3 likes by Guest, User1 and User3
-* by using the three buttons the event can be seen on Google Maps, 
-Updated or Deleted
-* there were two comments made by Guest and User3
-
-![Product Name Screen Shot](imgs/eb6.png)
-
+It explores many Next.js features like how to make pages and routes, how to link between them, how to use styles, how to create a Layout 
+component used across all app like Navbar or Footer, how to use static assests like images, how to insert different metadata to each page, how to fetch data on the server side (from JSONPlaceholder APIs) with Next.js build in functions: getStaticProps() and getStaticPaths() and finally how to deploy the app on
+the Vercel Platform.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,9 +77,7 @@ Updated or Deleted
 ## Acknowledgments
 
 
-* this project was completed at the end of the Udemy course <a href="https://www.udemy.com/course/react-nodejs-express-mongodb-the-mern-fullstack-guide/learn/lecture/16833284?start=15#overview">The MERN Guide</a>
-
-* all users' accounts and all events have been created with the usage of free-to-use photos from www.pexels.com
+* this project was completed at the end of The Net Ninja tutorial <a href="https://www.youtube.com/watch?v=MJT_WXdSPjE&list=LL&index=16">see more</a>
 
 
 
@@ -115,11 +97,6 @@ This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/.
 ## Next general info
 Next.js is an open-source web development framework built on top of Node.js enabling React-based web applications functionalities such 
 as server-side rendering and generating static websites as oppose to 'traditional' React apps that can only render their content in the client-side browser.
-
-This little project is a demo tourist website. It explores many Next.js features like how to make pages and routes, how to link between them, how to use styles, how to create a Layout 
-component used across all app like Navbar or Footer, how to use static assests like images, how to insert different metadata to each page, how to fetch data on the server side (from JSONPlaceholder APIs) with Next.js build in functions: getStaticProps() and getStaticPaths() and finally how to deploy the app on
-the Vercel Platform.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
