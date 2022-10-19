@@ -10,7 +10,7 @@
 
 
   <p>
-    'california Destinations' is a Next.js web app - this repository contains its source code     
+    California Destinations is a Next.js web app - this repository contains its source code     
     <br />
     <br />
     <a href="https://react-next-js-webb-app.vercel.app/"><strong>View the deployed app»</strong></a>
