@@ -13,7 +13,7 @@
     'california destination' is a Next.js web app - this repository contains its source code     
     <br />
     <br />
-    <a href="https://react-next-js-webb-app.vercel.app/"><strong>View the deployed app on Vercel»</strong></a>
+    <a href="https://react-next-js-webb-app.vercel.app/"><strong>View the deployed app»</strong></a>
     <br />
     <br />
    
@@ -29,13 +29,13 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-     <li><a href="#getting-started">Acknowledgments</a></li>
-    <li><a href="#next-general-info">Acknowledgments</a></li>
-    <li><a href="#images-usage">Acknowledgments</a></li>
-    <li><a href="#customizing-page-title-for-each-page">Acknowledgments</a></li>
-    <li><a href="#fetching-data">Acknowledgments</a></li>
-    <li><a href="#dynamic-routes">Acknowledgments</a></li>
-     <li><a href="#deploy-on-vercel">Acknowledgments</a></li>
+     <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#next-general-info">Next General Info</a></li>
+    <li><a href="#images-usage">Images</a></li>
+    <li><a href="#customizing-page-title-for-each-page">Customizing Page Title For Each Page</a></li>
+    <li><a href="#fetching-data">Fetching Data</a></li>
+    <li><a href="#dynamic-routes">Dynamic Routes</a></li>
+     <li><a href="#deploy-on-vercel">Deploy on Vercel</a></li>
   </ol>
 </details>
 
@@ -80,27 +80,13 @@ Updated or Deleted
 
 * HTML, CSS
 * [![React][React.js]][React-url]
-* Node.js, Express.js, Mongoose 
-* MongoBD for a database
-* Amazon Web Services API for stroing photos
-* Google Maps Platform API for events locations
-* SendGrid API for password change
-* Multer middleware library for uploading photos
-* bcrypt library for hashing passwords
-* jsonwebtoken for creating login token
-* Firebase for deploying the frontend
-* Heroku for deploying the backend
-
-Heavy usage of React Hooks like useReducer for managing complex state and useContext (as a part of the Context API that is being used for a "global" state managment) also useEffect, useRef, useCallback and useState. There are also custom hooks built and that is form-hook.js for managing form data, http-hook.js for all fetching requests and auth-hook.js for managing back end login token through the rerender cycles.
-All sorts of errors that are being handled on the backend  (like an incorrect password) are sent to the frontend and are displayed in a modal window on UI for better UX.
-As for the CSS styling, Block/Element/Modifier convention is being followed.
-
-
+* Next.js
+* Github as a remote repository
+* Chrome, Firefox, Brave Browser, Edge and Opera for browser testing the responsiveness.
+* Chrome Developer Tools for testing screen sizes and using Lighthouse.
+* Visual Studio Code as a local IDE & repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -124,6 +110,7 @@ yarn dev.
 This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/.
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Next general info
 Next.js is an open-source web development framework built on top of Node.js enabling React-based web applications functionalities such 
@@ -133,12 +120,18 @@ This little project is a demo tourist website. It explores many Next.js features
 component used across all app like Navbar or Footer, how to use static assests like images, how to insert different metadata to each page, how to fetch data on the server side (from JSONPlaceholder APIs) with Next.js build in functions: getStaticProps() and getStaticPaths() and finally how to deploy the app on
 the Vercel Platform.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
 ## Images usage
  For any static assets like images in Next.js they have to placed in 'public' folder. 
  Then we could use <img src="public/kkkk"> or import Image from 'next/image'
  and use that component that allows us direct styling - another
  good thing about using this Image component is that it loads images lazely, so for example if the image was somewhere at the bottom of the page it only loads it if we sroll down to the bottom; 
     see index.js for its aplication
+
+    
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Customizing page title for each page
 we can add meta data for each page:
@@ -154,14 +147,23 @@ With another component we need to use React.Fragment since there can only be one
 mutiple elements
 </>
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Fetching Data
 For fetching data I am keeping it very simple and are using JSONPlaceholder APIs where I can choose different resoures like /comments, /photos, /users and so one. I am going to be using
 /photos resource. 
 When using React 0nly for fetching data i would use useEffect Hook but because with Next 
 I am not fetching data in the browser but on the server, for that I am using special function provided by Next getStaticProps() and getStaticPaths().
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Dynamic Routes
 for dyanmic routing in Next I need to use [] when naming the file: [id].js
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Deploy on Vercel
 
@@ -169,6 +171,9 @@ The easiest way to deploy  Next.js app is to use the [Vercel Platform](https://v
 
 Check out  [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 This app is deployed on Vercel: https://react-next-js-webb-app.vercel.app/
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
