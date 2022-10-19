@@ -48,7 +48,7 @@ This little project is a demo tourist website where user can choose a hotel from
 
 ![Product Name Screen Shot](imgs/cd1.png)
 
-List of dummy hotels is fetched from JSONPlaceholder APIs:
+A list of dummy hotels is fetched from JSONPlaceholder APIs:
 
 ![Product Name Screen Shot](imgs/cd2.png)
 
