@@ -5,15 +5,15 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Link href="/">
+        <Link href="/" className='logo-link'>
         
         <Image src="/logo.png" alt="site logo" width={128} height={77} />
         
         </Link>
       </div>
-      <Link href="/"><a>Home</a></Link>
-      <Link href="/about"><a>About</a></Link>
-      <Link href="/hotels/"><a>Our Hotels</a></Link>
+      <Link href="/"><span className='link'>Home</span></Link>
+      <Link href="/about"><span className='link'>About</span></Link>
+      <Link href="/hotels/"><span className='link'>Our Hotels</span></Link>
     </nav>
   );
 }

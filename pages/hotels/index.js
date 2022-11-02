@@ -23,10 +23,10 @@ const Photos = ({ photos }) => {
     <div>
       <h1>Our Best Hotels for You:</h1>
       {photos.map(photo => (
-        <Link href={'/hotels/' + photo.id} key={photo.id}>
-          <a className={styles.single}>
+        <Link legacyBehavior href={'/hotels/' + photo.id} key={photo.id}>
+          <span className={styles.single}>
             <h3>{photo.title}</h3>
-          </a>
+          </span>
         </Link>
       ))}
     </div>
