@@ -31,6 +31,9 @@ export const getStaticPaths = async () => {
 // we get access to the id on the 'context' object that we automatically pass
 //  an an argument
 export const getStaticProps = async (context) => {
+  // we can also use serverSide rendering for the purpose of this exercise but 
+  // here is not needed server -side rendering
+  // export const getServerSideProps = async (context) => {
   const id = context.params.id;
   // this runs as many times as there is ids and returns as many props as there 
   // are ids
