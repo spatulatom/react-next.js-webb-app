@@ -49,7 +49,7 @@ export const getStaticProps = async (context) => {
 // and basically all those pages get build, so when we click link a link with their 
 // id they are already there, fetching and buildin proccess is done on the server earlier
 // -  with  React only based on individual id we would fetch the rest of the object and
-// build only ONE page, in here all pages are built already
+// build only ONE page, in here all pages are built already// build only ONE page, in here all pages are built already
 const Details = ({ photo }) => {
   return (
     <div className="details">
