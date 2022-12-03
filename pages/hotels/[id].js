@@ -22,6 +22,9 @@ export const getStaticPaths = async () => {
     paths,
     // fallback has to do with the fallback pages so when te user is 
     // trying visit the page with the id that dosent exist it will show the 404 page
+    // also when you have liots of posibble pages like amazon site for products
+    // set fallback to true and definbe paths above- sites not prerendered
+    // will still be lodaed but in a classical way request will be ftached when link clicked
     fallback: false
   }
 }
