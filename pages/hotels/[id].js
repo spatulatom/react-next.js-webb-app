@@ -45,6 +45,16 @@ export const getStaticProps = async (context) => {
   }
 }
 
+// (SIDENOTE: you can extraxt dynmic route parameter  value using useRouter hook
+// import { useRouter } from 'next/router';
+// const router = useRouter();
+// const eventId = router.query.eventId;
+// there is a difference between extracting params in the component function 
+// and in getStatcprops, useRouer is ok for using id to fetch some data 
+// but would only happen in the browser but if you want to prerender a page
+// with help of getstaticprops and getStaticProps runs BEFORE the component
+// functions runs  that s the wole idea of prerenderind the page)
+
 // nad we are pomping each of that return value to the Details page as props
 // and basically all those pages get build, so when we click link a link with their 
 // id they are already there, fetching and buildin proccess is done on the server earlier
