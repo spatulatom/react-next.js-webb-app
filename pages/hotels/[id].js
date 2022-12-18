@@ -40,6 +40,9 @@ export const getStaticProps = async (context) => {
   const id = context.params.id;
   // this runs as many times as there is ids and returns as many props as there 
   // are ids
+
+  // do not use fetch inside this function to talk to your own api,
+  // for externa api its perfectly fine
   const res = await fetch('https://jsonplaceholder.typicode.com/photos/' + id);
   const data = await res.json();
 
